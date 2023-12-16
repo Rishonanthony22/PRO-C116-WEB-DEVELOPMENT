@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Father's Page</title>
+</head>
+<body>
+    <h1>Father's Page</h1>
+    <p>Father's Name: {{ father_name }}</p>
+    <p>Father's Age: {{ father_age }}</p>
+    
+    <!-- Reference the image from the static folder -->
+    <img src="{{ url_for('static', filename='images/father_image.jpg') }}" alt="Father's Image">
+</body>
+</html>
